@@ -14,7 +14,7 @@ public class FacebookView {
 		System.out.println("press 1 to create profile");
 		System.out.println("press 2 to view profile");
 		System.out.println("press 3 to delete profile");
-		System.out.println("press 4 to view all profile");
+		System.out.println("press 4 to view all profile");//
 		
 		Scanner sc=new Scanner(System.in); //scanner is used to read value from console/user
 		int choice=sc.nextInt();
