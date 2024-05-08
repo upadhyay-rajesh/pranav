@@ -16,7 +16,7 @@ public class FacebookView {
 		System.out.println("press 3 to delete profile");
 		System.out.println("press 4 to view all profile");
 		
-		Scanner sc=new Scanner(System.in);
+		Scanner sc=new Scanner(System.in); //scanner is used to read value from console/user
 		int choice=sc.nextInt();
 		
 		FacebookControllerInterface fc=new FacebookController();
