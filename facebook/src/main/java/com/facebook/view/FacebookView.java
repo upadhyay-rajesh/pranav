@@ -19,7 +19,7 @@ public class FacebookView {
 		Scanner sc=new Scanner(System.in); //scanner is used to read value from console/user
 		int choice=sc.nextInt();
 		
-		FacebookControllerInterface fc=new FacebookController();
+		FacebookControllerInterface fc=new FacebookController();//
 		
 		switch(choice) {
 		case 1 : fc.createProfile();
