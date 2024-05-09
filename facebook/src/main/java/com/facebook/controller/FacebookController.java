@@ -99,7 +99,22 @@ public class FacebookController implements FacebookControllerInterface {
 			System.out.println("Email is "+ff.getEmail());
 			System.out.println("Address is "+ff.getAddress());
 		}
+		
+		System.out.println("access data using lambda");
+		
+		ll.forEach(ff->{
+			System.out.println("********************************");
+			System.out.println("your profile is ---->");
+			System.out.println("Name is "+ff.getName());
+			System.out.println("Password is "+ff.getPassword());
+			System.out.println("Email is "+ff.getEmail());
+			System.out.println("Address is "+ff.getAddress());
+		});
 
+	}
+	
+	public static void display() {
+		System.out.println("i am static method of controller");
 	}
 
 }
